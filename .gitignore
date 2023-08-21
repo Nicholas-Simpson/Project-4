@@ -1,5 +1,7 @@
 # OS files to ignore
 .DS_Store
+config/
+api_keys.py
 
 
 # Byte-compiled / optimized / DLL files
