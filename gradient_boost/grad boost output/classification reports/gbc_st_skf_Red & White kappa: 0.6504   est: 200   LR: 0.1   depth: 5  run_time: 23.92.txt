@@ -1,0 +1,48 @@
+Grid Search Parameters:
+----------------------------------------------------------
+Estimators used in grid search: [200, 400, 800]
+Learning rates used in grid search: [0.001, 0.01, 0.1]
+Tree node max depth in grid search: [200, 400, 800]
+----------------------------------------------------------
+
+Best Parameters Found:
+----------------------------------------------------------
+Best Estimators: 200
+Best Learning Rate: 0.1
+Best Max Depth: 5
+----------------------------------------------------------
+
+Classification Report
+-----------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         6
+           4       0.34      0.23      0.28        43
+           5       0.74      0.69      0.71       428
+           6       0.68      0.77      0.72       567
+           7       0.65      0.61      0.63       216
+           8       0.88      0.36      0.51        39
+           9       0.00      0.00      0.00         1
+
+    accuracy                           0.68      1300
+   macro avg       0.47      0.38      0.41      1300
+weighted avg       0.68      0.68      0.68      1300
+
+-----------------------------------------------------------------------
+
+Model Performance:
+----------------------------------------------------------
+Accuracy: 0.68
+F1: 0.68
+Precision: 0.68
+Recall: 0.68
+Cohen Kappa Score, quadratic weighted: 0.6504
+----------------------------------------------------------
+
+Search and Training Duration
+----------------------------------------------------------
+Time to complete grid search: 4689.141868 seconds
+Time to run model with best params: 23.916079 seconds
+----------------------------------------------------------
+
+***End Report***
