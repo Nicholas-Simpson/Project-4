@@ -1,0 +1,5 @@
+﻿stratification,kappa,estimators,learning_rate,max_depth,time_(s)
+st_skf,0.6306,150,0.2,9,28.28
+st_skf,0.6157,200,0.1,7,21.02
+st_skf,0.6071,200,0.1,5,20.57
+st_skf,0.6071,100,0.2,7,9.74
